@@ -1,0 +1,14 @@
+{
+  "products": [
+    { "id": 1, "price": { "value": 22, "currency": "GBP", "rate": "monthly"}},
+    { "id": 2, "price": { "value": 33, "currency": "GBP", "rate": "monthly"}},
+    { "id": 3, "price": { "value": 44, "currency": "GBP", "rate": "monthly"}},
+    { "id": 4, "price": { "value": 55, "currency": "GBP", "rate": "monthly"}}
+  ],
+  "productDetails": [
+    { "id": 1, "productId": 1, "name": "Full Fibre 100" },
+    { "id": 2, "productId": 2, "name": "Full Fibre 300" },
+    { "id": 3, "productId": 3, "name": "Full Fibre 500" },
+    { "id": 4, "productId": 4, "name": "Full Fibre 900" }
+  ]
+}
