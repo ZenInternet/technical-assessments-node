@@ -32,6 +32,8 @@ This repository contains a technical assessment for a job interview at Zen Inter
   yarn start-db
   ```
 
+> N.B. If using `yarn 2+` you may need to install the yarn sdk for your IDE by running: `yarn dlx @yarnpkg/sdks ...` [see here](https://yarnpkg.com/getting-started/editor-sdks)
+
 ## Tests
 
 ### Running Tests

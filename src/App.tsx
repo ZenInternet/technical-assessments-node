@@ -2,14 +2,7 @@ import React from "react";
 import "./App.css";
 import { ProductTable } from "./components";
 
-const currencies = {
-  USD: "$",
-  EUR: "€",
-  JPY: "¥",
-  GBP: "£",
-};
-
-function App() {
+const App = () => {
   return (
     <div className="App">
       <nav
@@ -27,10 +20,19 @@ function App() {
           style={{ height: "40px", marginRight: "1rem" }}
         />
         <span>Zen Technical Assessment</span>
+        <div style={{ marginLeft: "auto" }}>
+          Region:
+          <select>
+            <option value="UK">UK ☕</option>
+            <option value="US">USA 🌎</option>
+            <option value="EU">EU ⭐</option>
+            <option value="JP">Japan 🗻</option>
+          </select>
+        </div>
       </nav>
       <ProductTable />
     </div>
   );
-}
+};
 
 export default App;
