@@ -10,5 +10,11 @@
     { "id": 2, "productId": 2, "name": "Full Fibre 300" },
     { "id": 3, "productId": 3, "name": "Full Fibre 500" },
     { "id": 4, "productId": 4, "name": "Full Fibre 900" }
+  ],
+  "currencyInformation": [
+    { "currency": "GBP", "rate": 1  },
+    { "currency": "USD", "rate": 1.3  },
+    { "currency": "EUR", "rate": 1.1 },
+    { "currency": "JPY", "rate": 150 }
   ]
 }

@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { getProducts } from "../api/products";
+import { getProducts, type Product } from "../api/products";
 
 export const ProductTable = () => {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([] as Product[]);
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const result = await getProducts();
-      setProducts(result);
+      const productResult = await getProducts();
+      setProducts(productResult);
     };
     fetchProducts();
   }, []);
